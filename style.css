@@ -1,0 +1,100 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&family=Ubuntu:wght@300&display=swap');
+*{
+margin:0;
+padding:0;
+}
+
+.container{
+    max-width:80vw;
+    font-family: 'PT Serif', serif;
+
+}
+.justify-between{
+    justify-content: space-between;
+}
+
+.navbar li{
+    list-style: none;
+    margin:0 14px;
+
+    
+}
+.navbar{
+    display:flex;
+    height: 67px;
+}
+
+.top-left{
+    width:50%;
+   
+}
+.top-right{
+    width:50%;
+}
+.section1{
+    max-height: 100vh;
+    overflow-y: hidden;
+    overflow-x: visible;
+}
+.logo{
+    font-size: 2rem;
+}
+.top-right .gymimg{
+    width: 480px;
+}
+.section1 h1{
+    font-size: 2rem;
+}
+.section2{
+    padding: 73px ;
+}
+.section2 h1{
+    font-size: 2.3rem;
+}
+.box{
+    padding: 8px 0px;
+    margin:12px 22px;
+    min-width:23vw;
+    border:3px solid black;
+    text-align: center;
+    border-radius: 7px;
+}
+.box h2{ 
+    padding:15px 0px ;
+}
+.box ul{
+    list-style-type: none;
+}
+.box ul li{
+    margin:12px;
+}
+.highlighted{
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+.section3{
+    padding: 73px;
+}
+.section3 table{
+    width:100%;
+    margin-bottom:140px;
+    border-collapse: collapse;
+}
+.section3 h1{
+    font-size: 2.3rem;
+}
+.section3 table th{
+    width:23vw;
+    border-bottom: 2px solid black;
+    padding : 15px 0;
+}
+.section3 table td{
+    border-bottom: 2px solid black;
+
+}
+
+footer{
+    padding: 22px;
+    text-align: center;
+}
